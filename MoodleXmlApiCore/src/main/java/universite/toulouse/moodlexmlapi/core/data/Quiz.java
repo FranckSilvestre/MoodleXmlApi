@@ -1,16 +1,16 @@
 package universite.toulouse.moodlexmlapi.core.data;
 
 import java.util.List;
+
 /**
  * Interface representing a Moodle quiz
- * @author fsil 
- *
+ * @author fsil
  */
 public interface Quiz {
-	
-	/**
-	 * @return the question list
-	 */
-	public List<Question> getQuestionList();
+
+    /**
+     * @return the question list
+     */
+    List<Question> getQuestionList();
 
 }
