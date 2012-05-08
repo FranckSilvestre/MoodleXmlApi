@@ -1,6 +1,6 @@
 package universite.toulouse.moodlexmlapi.core.data;
 /**
- * A question error 
+ * A question error
  * @author fsil
  *
  */

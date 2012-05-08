@@ -20,12 +20,11 @@ public interface QuizImportExportService {
      * @throws InvalidQuizFormatException  in case of format problem
      * @throws InvalidStreamSizeException in case of size problem
      */
-    ImportedQuiz importQuiz(InputStream is)
-            throws InvalidQuizFormatException, InvalidStreamSizeException;
+    ImportedQuiz importQuiz(InputStream is) throws InvalidQuizFormatException,
+    InvalidStreamSizeException;
 
     /**
      * Export a quiz in the Moodle XML format
-     * 
      * @param quiz
      *            the quiz to export
      * @return the output stream containing the quiz in Moodle XML format

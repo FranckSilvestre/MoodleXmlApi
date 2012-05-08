@@ -6,7 +6,7 @@ import java.util.List;
  * Class representing the dummy question of type category
  * @author fsil
  */
-final public class CategoryQuestion implements Question {
+public final  class CategoryQuestion implements Question {
 
     /**
      * the category
@@ -28,7 +28,7 @@ final public class CategoryQuestion implements Question {
      * @param newCategory
      *            the category to set
      */
-    public void setCategory(String newCategory) {
+    public void setCategory(final String newCategory) {
         this.category = newCategory;
     }
 
@@ -58,7 +58,7 @@ final public class CategoryQuestion implements Question {
 
     /**
      * @see universite.toulouse.moodlexmlapi.core.data.Question#getName()
-     * return null
+     * @return null
      */
     public String getName() {
         return null;
@@ -91,7 +91,7 @@ final public class CategoryQuestion implements Question {
     }
 
     /**
-     * @see 
+     * @see
      * universite.toulouse.moodlexmlapi.core.data.Question#getDefaultGrade()
      * @return null
      */
@@ -116,7 +116,7 @@ final public class CategoryQuestion implements Question {
     }
 
     /**
-     * @see 
+     * @see
      * universite.toulouse.moodlexmlapi.core.data.Question#getImageBase64()
      * @return null
      */

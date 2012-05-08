@@ -8,7 +8,7 @@ public enum QuestionTextFormat {
     /**
      *  html format
      */
-    html, 
+    html,
     /**
      * moodle format
      */

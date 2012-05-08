@@ -15,7 +15,7 @@ public class QuestionText {
      * @param newquestionTextFormat
      *            the text format
      */
-    public QuestionText(final String newtext, 
+    public QuestionText(final String newtext,
             final QuestionTextFormat newquestionTextFormat) {
         this.text = newtext;
         this.questionTextFormat = newquestionTextFormat;

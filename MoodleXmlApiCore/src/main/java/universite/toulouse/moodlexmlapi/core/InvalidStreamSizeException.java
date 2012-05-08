@@ -28,7 +28,7 @@ public class InvalidStreamSizeException extends Exception {
      * @param newmaxSize the max size
      * @param newstreamSize the stream size
      */
-    public InvalidStreamSizeException(final Long newmaxSize, 
+    public InvalidStreamSizeException(final Long newmaxSize,
             final Long newstreamSize) {
         super("invalidStreamSizeException");
         this.maxSize = newmaxSize;

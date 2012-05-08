@@ -24,7 +24,7 @@ public enum QuestionType {
     /**
      * cloze
      */
-    cloze, 
+    cloze,
     /**
      * multichoice
      */
@@ -32,15 +32,15 @@ public enum QuestionType {
     /**
      * numerical
      */
-    numerical, 
+    numerical,
     /**
      * short answer
      */
-    shortanswer, 
+    shortanswer,
     /**
      * true flase
      */
-    truefalse, 
+    truefalse,
     /**
      * category
      */
